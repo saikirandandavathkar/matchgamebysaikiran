@@ -1,0 +1,16 @@
+.listContainer {
+  margin: 0px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.thumbnail-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}

@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+}
+
+.header-container {
+  background-color: #2c0e3a;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo-img {
+  width: 120px;
+  height: 50px;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.score-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.score {
+  color: #fec653;
+}
+
+.timer-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.timer {
+  color: #fec653;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.displayImage-container {
+  margin-top: 30px;
+}
+
+.displayImage {
+  width: 500px;
+  height: 300px;
+}
+
+.tabsList-container {
+  list-style-type: none;
+  display: flex;
+}
+
+.imagesList-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 300px;
+}
+
+.scoreCard-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.trophy-img {
+  width: 300px;
+  height: 200px;
+  margin-top: 130px;
+}
+
+.score-heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.playAgainBtn {
+  background-color: #cf60c8;
+  border: none;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.resetImg {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+}
+
+.playAgainText {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 20px;
+}

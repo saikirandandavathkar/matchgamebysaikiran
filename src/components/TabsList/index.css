@@ -1,0 +1,17 @@
+.tab-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.text-style {
+  color: #fec653;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.btn2 {
+  border: none;
+  background-color: transparent;
+}
